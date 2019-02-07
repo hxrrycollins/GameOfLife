@@ -65,6 +65,7 @@ while(run_check):
     else:
         x_coord = int(input("Enter X coordinate: "))
         y_coord = int(input("Enter Y coordinate: "))
+        print("")
         evaluate_life(x_coord,y_coord)
         print("")
         print_grid()
